@@ -1,0 +1,24 @@
+*.sln
+*.csproj
+*.userprefs
+*.pidb
+*.unityproj
+*.DS_Store
+*.suo
+/Library/
+/obj
+/Temp
+/Builds
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+# Visual Studio 2015 cache/options directory
+/Protect/.vs/
+/.vs/
+
+#Setup output
+*[Ss]etup*.exe
+
+#Remote education package
+*.zip
