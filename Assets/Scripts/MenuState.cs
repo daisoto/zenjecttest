@@ -1,0 +1,28 @@
+﻿using UnityEngine;
+using Zenject;
+
+public class MenuState : GameStateEntity
+{
+    public override void Initialize()
+    {
+        Debug.Log("MenuState Initialized");
+    }
+
+    public override void Start()
+    {
+        Debug.Log("MenuState Started");
+    }
+
+    public override void Tick()
+    {
+    }
+
+    public override void Dispose()
+    {
+        Debug.Log("MenuState Disposed");
+    }
+
+    public class Factory : PlaceholderFactory<MenuState>
+    {
+    }
+}
